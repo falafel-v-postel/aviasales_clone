@@ -5,11 +5,13 @@ const formSearch = document.querySelector('.form-search'),
     inputCitiesTo = formSearch.querySelector('.input__cities-to'),
     dropdownCitiesTo = formSearch.querySelector('.dropdown__cities-to')
 
-//Дапнные
+//Данные
 const citiesApi = 'database/cities.json',
     proxy = 'https://cors-anywhere.herokuapp.com/',
     API_KEY = '9f874ffe86202b9fe3731d0f660215b2',
     calendar = 'http://min-prices.aviasales.ru/calendar_preload';
+//let urlParams = '?origin=SVX&destination=KGD&depart_date=2020-05-25&one_way=true';    
+//const url = calendar + urlParams;
 
 let city = [];
 
